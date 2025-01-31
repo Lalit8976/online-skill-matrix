@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:"Times New Roman";
+	text-decoration:none;
+}
+
+#bdy{
+background-color:#ECECFF;
+top:0px;
+width:960px;
+height:auto;
+display:block;
+box-shadow:5px 5px 10px #999;
+}
+#headr{
+position:relative;
+top:0px;
+width:100%;
+height:auto;
+}
+
+/*-----------------REGISTRATION PAGE---------------------------*/
+#work{
+position:relative;
+background-color:#006;
+margin-top:10px;
+height:auto;
+width:100%;	
+}
+#work table{
+height:600px;	
+}
+
+#work table .block{
+	text-align:left;
+	color:#F00;
+	background-color:#CCC;
+	margin: 5px 5px;
+}
+
+.btn{
+ width:80px;
+ height:32px;
+ background-color:#009;
+ color:#FFF;
+ font-weight:600;
+ margin-left:20px;
+ border-radius:10px;
+}
+
+#footr{
+position:relative;
+background-color:#747474;
+/*top:720px;
+margin-top:20px;*/
+width:960px;
+height:80px;
+text-align:center;
+}
+
+/*-----------------Rules PAGE---------------------------*/

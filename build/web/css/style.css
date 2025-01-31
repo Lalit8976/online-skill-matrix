@@ -1,0 +1,387 @@
+@charset "utf-8";
+/* CSS Document */
+*{/*it put impact on all tags and contents*/
+	margin:0;
+	padding:0;
+	font-family:"Arial";
+	text-decoration:none;
+}
+
+#bdy{/*its effect on entire body...it is used as abbreviation of body*/
+background-color:#ECECFF;
+top:0px;
+width:960px;
+height:auto;
+display:block;
+box-shadow:5px 5px 10px #999;
+}
+#headr{/*for adding banner on appropriate place*/
+position:relative;
+top:0px;
+width:100%;
+height:auto;
+}
+#menu{/*for adding menu button*/
+background-color:white;
+position:relative;
+margin-top:0px;
+height:20px;
+width:100%;
+/*box-shadow:2px 4px 7px #F33;*/
+}
+.mar{/*for marquee */
+float:left;
+background-color:#FFF;
+position:relative;
+width:180px;
+color:#F00;
+}
+.na{/*small image added which name is nav1.png*/
+float:left;
+position:relative;
+width:10px;
+height:20px;
+}
+.mn{/* property on menu banner */
+float:right;
+position:relative;
+background-color:black;
+width:770px;
+font-size:16px;
+font-weight:800;
+/*color:black;*/
+height:20px;
+}
+.mn a{/*menu color change as: HOME*/
+float:left;
+position:relative;
+/*background-color:#000;*/
+font-size:16px;
+font-weight:800;
+font-family:arial;
+color:#FFF;
+height:20px;
+}
+/*------INDEX PAGE/HOME PAGE------*/
+#work{
+position:relative;
+background-color:#FFFFC4;
+margin-top:10px;
+height:400px;
+width:100%;	
+}
+#work_lft{
+position:relative;
+/*background-color:#FFFFC4;*/
+float:left;
+margin-left:0px;
+width:240px;
+height:auto;
+font-size:12px;
+}
+#work_lft .outtab{/*inner style of login & news panel*/
+	position:relative;
+	background-color:#FFFFC4;
+	margin-left:0px;
+	width:240px;
+	height:311px;
+	font-size:12px;
+	z-index: 1;
+
+}
+#work_lft .outtab form{
+	position:relative;
+        /*border-style:dashed;*/
+	margin-left:0px;
+	width:240px;
+	height:auto;
+	font-size:12px;
+	left:0px;
+}
+#work_lft .outtab form .intab tr td{/*effect on login panel*/
+position:relative;
+margin-left:0px;
+margin-top: 10px;
+width:240px;
+height:auto;
+font-size:12px;
+padding-top:10px;
+padding-bottom:10px;
+}
+.intab tr td{/*effect on news panel*/
+position:relative;
+margin-left:0px;
+width:240px;
+height:auto;
+font-size:12px;
+padding-top:5px;
+padding-bottom:10px;
+list-style-type:none;
+}
+.intab tr td li{
+position:relative;
+margin-left:5px;
+width:230px;
+height:auto;
+font-size:12px;
+padding-top:5px;
+padding-bottom:10px;
+list-style-type:none;
+}
+#work_rht{
+	position:absolute;
+	background:none;
+	float:left;
+	top:-2px;
+	margin-left:260px;
+	margin-top:10px;
+	width:680px;
+	height:350px;
+}
+#work_rht p{
+text-align:left;
+padding:20px;
+}
+#work_rht .lst{
+	text-align:left;
+	padding-left:20px;
+	list-style-image:url(../Images/bulet.jpg);
+}
+#work_rht .lst ul{
+	list-style-image:url(../Images/bullet.jpg);
+}
+#footr{
+position:relative;
+background-color:#747474;
+/*top:720px;
+margin-top:20px;*/
+width:960px;
+height:80px;
+text-align:center;
+}
+.in_bt input[type=submit]{
+height:25px;
+border-radius:7px;
+width:100px;
+font-size:14px;
+background-color:#FFF;
+color:#000;
+}
+.in_bt input[type=reset]{
+height:25px;
+border-radius:7px;
+width:100px;
+font-size:14px;
+background-color:#FFF;
+color:#000;
+}
+.in_bt input[type=text],input[type=password]{
+height:30px;	
+border-radius:4px;
+width:200px;
+background-color:#FF9;
+border:1px solid #CCC
+}
+/*-----------------About US PAGE---------------------------*/
+#abwork{
+position:relative;
+background-color:#ECECFF;
+margin-top:10px;
+height:600px;
+width:100%;
+line-height:18px;
+}
+#abwork_lft{
+position:relative;
+background-color:#FFFFC4;
+float:left;
+margin-left:0px;
+width:400px;
+height:500px;;
+border:1px solid #306;
+padding:20px;
+text-align:justify;
+}
+#abwork_lft table{
+width:390px;
+height:460px;
+padding:10px;
+text-align:justify
+}
+#abwork_lft table tr th{
+text-align:center
+}
+#abwork_lft table tr td{
+padding-left:20px;
+}
+#abwork_lft table ul{
+list-style-image:url(../Images/bulet.jpg);
+}
+#abwork_rht{
+	position:absolute;
+	float:left;
+	top:-2px;
+	margin-left:500px;
+	margin-top:130px;
+	width:318px;
+	height:auto;
+	text-align:center;
+}
+
+/*-----------------Rules PAGE---------------------------*/
+#cwork{
+position:relative;
+background-color:#ECECFF;
+margin-top:10px;
+height:400px;
+width:100%;
+line-height:18px;
+}
+#cwork_lft{
+position:relative;
+background-color:#FFFFC4;
+text-align:center;
+float:left;
+margin-left:0px;
+width:490px;
+height:300px;;
+border:1px solid #306;
+padding:30px;
+margin-top:20px;
+margin-left:20px;
+}
+#cwork_lft h1,h4,p{
+padding:20px;
+margin-top:20px;
+}
+#cwork_rht{
+	position:absolute;
+	float:left;
+	top:-2px;
+	margin-left:630px;
+	margin-top:130px;
+	width:250px;
+	height:auto;
+	text-align:center;
+}
+/*-----------------Feed Back PAGE---------------------------*/
+#fwork{
+position:relative;
+background-color:#ECECFF;
+margin-top:10px;
+height:500px;
+width:910px;
+padding:20px;
+}
+#fwork_lft{
+position:relative;
+float:left;
+margin-left:0px;
+width:480px;
+height:auto;
+font-size:12px;
+
+}
+
+#fwork_lft table{
+	width:100%;
+	height:480px;
+	padding:50px;
+	border:1px solid #600;
+	border-radius:10px;
+}
+
+#fwork_rht{
+	position:absolute;
+	float:left;
+	top:-2px;
+	margin-left:550px;
+	margin-top:130px;
+	width:318px;
+	height:auto;
+	text-align:center;
+}
+#fwork_rht p{
+color:red;
+font-weight:700;
+}
+input[type=text]{
+height:30px;	
+border-radius:4px;
+width:230px;
+background-color:#FF9;
+border:1px solid #CCC
+}
+input[type=submit]{
+height:30px;
+border-radius:7px;
+width:120px;
+font-size:14px;
+background-color:#006;
+color:#FFF;
+}
+input[type=reset]{
+height:30px;
+border-radius:7px;
+width:90px;
+font-size:14px;
+background-color:#006;
+color:#FFF;
+}
+:hover{
+	box-shadow:0px 0px 8px red;
+        background-color:deeppink;
+	color:green;
+}
+textarea{
+	border-radius:10px;
+	background-color:#FF9;
+}
+input:hover{
+	box-shadow:0px 0px 8px #09F;
+        background-color:yellow;
+	color:green;
+}
+textarea:hover{
+	box-shadow:0px 0px 8px #09F;
+        background-color:red;
+	color:magenta;
+}
+/*-----------------Rules PAGE---------------------------*/
+#rwork{
+position:relative;
+background-color:#ECECFF;
+margin-top:10px;
+height:400px;
+width:100%;
+line-height:18px;
+}
+#rwork_lft{
+position:relative;
+background-color:#FFFFC4;
+text-align:center;
+float:left;
+width:490px;
+height:300px;
+border:1px solid #306;
+margin-top:20px;
+margin-left:20px;
+}
+#rwork_lft ul{
+	text-align:justify;
+	width:430px;
+margin-left:10px;
+padding-left:15px;
+list-style-image:url(../Images/bulet.jpg);
+}
+
+#rwork_rht{
+	position:absolute;
+	float:left;
+	top:-2px;
+	margin-left:530px;
+	margin-top:100px;
+	width:250px;
+	height:auto;
+	text-align:center;
+}
